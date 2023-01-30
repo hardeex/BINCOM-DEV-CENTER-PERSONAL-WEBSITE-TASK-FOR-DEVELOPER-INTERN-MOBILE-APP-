@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(20, 22, 26);
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: left;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+ul li,
+#p-summary{
+    line-height: 2rem;
+}
+
+.links{
+    text-align: center;
+    list-style: none;
+}
+
+.links li a{
+    margin-right: 1rem;
+    color: rgb(228, 167, 167);
+    text-decoration: none;
+}
+
+.data-container{
+    display: flex;
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.date{
+    display: flex;
+    margin: 20px;
+}
+
+.inner{
+    width: 20rem;
+    margin-right: 3rem;
+    text-transform: capitalize;
+}
+
+.meet-frnd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn{
+    text-align: center;
+    
+}
+
+.btn button a{
+    text-transform: uppercase;
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+#pname{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+#title{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+#personal-data{
+    display: flex;
+}
+
+
+/**** footer styling ***/
+
+footer{
+    background: #fff;
+}
+
+.footer .share{
+    padding:2rem 0;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    color:#fff;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    background-color: black;
+}
+
